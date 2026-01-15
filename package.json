@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-chat-completion-openai",
+  "version": "1.0.0",
+  "description": "Monorepo para API NestJS e Web NextJS com OpenAI",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.2",
+  "devDependencies": {
+    "turbo": "^2.7.4"
+  }
+}
